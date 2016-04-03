@@ -3,3 +3,5 @@ Repo to store coursework for the [Getting and Cleaning Data Course offered by Jo
 
 ## Contents
 * Course Project Repo
+ 
+*Additional Information can be found in the individual READ.me file(s) of the individual subfolders within this repo.*
