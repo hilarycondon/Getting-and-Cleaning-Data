@@ -32,7 +32,9 @@ current working directory. Save and run the script in a working directory where 
 
 To read the output text file into R and View it, Open RStudio and: 
 > SET CURRENT WORKING DIRECTORY TO DIRECTORY WHERE R SCRIPT RAN AND TIDY.TXT FILE OUTPUT
+***
 > data <- read.table("tidy.txt", header = TRUE) 
+***
 > View(data) # This will not work in console, but only in RStudio
 
 ### run_analysis.R Script Overview
