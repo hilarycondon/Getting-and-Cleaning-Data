@@ -30,6 +30,10 @@ You will also need to store the makeCodebook.Rmd file stored in this directory, 
 Note: This will create a data directory, or add data to a pre-existing data directory, and output files in your
 current working directory. Save and run the script in a working directory where you are comfortable with activity.
 
+To run script from R save in current working directory, along with the makeCodebook.Rmd file,  and use the code below: 
+***
+> source("run_analysis.R")
+***
 To read the output text file into R and View it, Open RStudio and: 
 > SET CURRENT WORKING DIRECTORY TO DIRECTORY WHERE R SCRIPT RAN AND TIDY.TXT FILE OUTPUT
 ***
@@ -52,7 +56,7 @@ This script does the following, each of which is blocked out in the code of the 
 **5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
   + Per Wickham <sup>3</sup> this data set is tidy because:
     *  Each variable forms a column - Subject, Activity, Variables Being Measured
-    *  Each observation forms a row - Average Measurement for each Variable Being Measured by Subject + Activity.
+    *  Each observation forms a row - Average Measurement for each Variable Being Measured by Subject + Activity. (180 observations as of 4/3/2016 - 30 subjects with 6 possible activities)
     *  Each type of observational unit forms a table - One table of Average Measurements for each variable by Subjects + Activity
 
 ### Output Overview
