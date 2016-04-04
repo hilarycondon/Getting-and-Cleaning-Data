@@ -1,0 +1,46 @@
+---
+title: "makeCodebook.Rmd"
+author: "Hilary Condon"
+date: "April 3, 2016"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+Codebook
+========
+
+Generated on `r Sys.time()` by the "run_analysis.R" script. See "run_analysis.R"" or the "READ.me" file for more background and for details on the creation of this dataset. 
+
+
+
+```{r, echo = FALSE}
+tidyData <- read.table("tidy.txt",header=TRUE)
+variableNames <- names(tidyData)
+```
+
+Variable list
+------------------------------
+
+```{r,echo=FALSE}
+variableNames    
+```
+
+Dataset structure
+-----------------
+
+
+```{r, echo=FALSE}
+
+str(unique(tidyData))
+
+
+```
+
+Summary of Variables
+---------------------
+
+```{r, echo=FALSE}
+summary(tidyData)
+
+```
