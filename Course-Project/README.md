@@ -62,9 +62,9 @@ This script does the following, each of which is blocked out in the code of the 
 ### Output Overview
   * This script will output a tidy dataset file as described in step 5 (Tab-deliminated text)
   * In addition, this script will create or modify the codebook.md file (Markdown) 
-    + a HTML version is also created by the current script.  
-    + Variable Lists, Data Structures, and Information on the Output Data is Stored in the Codebook.
-    + As noted in the Codebook, ore explicit documentation of transformations to the data to arrive at the dataset are noted in the comments of the run_analysis.R file. 
+    + a HTML version is also created by the current script, but the markdown version is the one requested by the assignment.
+    + Variable Lists, Data Structures, and Information on the Output Data are Stored in the Codebook.
+    + As noted in the Codebook, more explicit documentation of transformations to the data to arrive at the dataset are noted in the comments of the run_analysis.R file in addition to the notes present here. 
 
 ### Acknowledgements
 1. This project is a part as of the [Getting and Cleaning Data Course,](https://www.coursera.org/learn/data-cleaning/) which is offered by Johns Hopkins University on Coursera, with Jeff Leek, PhD, Roger Peng, PhD, and Brian Caffo, PhD instructing.
